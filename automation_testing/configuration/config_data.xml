@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Enviroment>
+
+    <SERVER_URL>http://localhost:9000</SERVER_URL>
+
+     # POST request
+    <POST_RESOURCE>/save-word</POST_RESOURCE>
+    <POST_PARAMETERS>hello:200, world:200</POST_PARAMETERS>
+
+    # GET request
+    <GET_RESOURCE>/find-word</GET_RESOURCE>
+    <GET_PARAMETERS>smile:200, enjoy:200</GET_PARAMETERS>
+
+</Enviroment>
